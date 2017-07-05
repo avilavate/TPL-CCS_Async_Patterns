@@ -1,0 +1,7 @@
+C:\Users\admin\NG2\C#\AsyncCS5\AsyncCS5\obj\Debug\AsyncCS5.csprojResolveAssemblyReference.cache
+C:\Users\admin\NG2\C#\AsyncCS5\AsyncCS5\bin\Debug\ratings.txt
+C:\Users\admin\NG2\C#\AsyncCS5\AsyncCS5\bin\Debug\AsyncCS5.exe.config
+C:\Users\admin\NG2\C#\AsyncCS5\AsyncCS5\bin\Debug\AsyncCS5.exe
+C:\Users\admin\NG2\C#\AsyncCS5\AsyncCS5\bin\Debug\AsyncCS5.pdb
+C:\Users\admin\NG2\C#\AsyncCS5\AsyncCS5\obj\Debug\AsyncCS5.exe
+C:\Users\admin\NG2\C#\AsyncCS5\AsyncCS5\obj\Debug\AsyncCS5.pdb

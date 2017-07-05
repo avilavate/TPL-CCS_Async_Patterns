@@ -1,0 +1,7 @@
+C:\Users\admin\NG2\C#\AsyncCS5\TaskCompletionSourseDemo\bin\Debug\TaskCompletionSourseDemo.exe.config
+C:\Users\admin\NG2\C#\AsyncCS5\TaskCompletionSourseDemo\bin\Debug\TaskCompletionSourseDemo.exe
+C:\Users\admin\NG2\C#\AsyncCS5\TaskCompletionSourseDemo\bin\Debug\TaskCompletionSourseDemo.pdb
+C:\Users\admin\NG2\C#\AsyncCS5\TaskCompletionSourseDemo\obj\Debug\TaskCompletionSourseDemo.exe
+C:\Users\admin\NG2\C#\AsyncCS5\TaskCompletionSourseDemo\obj\Debug\TaskCompletionSourseDemo.pdb
+C:\Users\admin\NG2\C#\AsyncCS5\TaskCompletionSourseDemo\bin\Debug\ratings.txt
+C:\Users\admin\NG2\C#\AsyncCS5\TaskCompletionSourseDemo\obj\Debug\TaskCompletionSourseDemo.csprojResolveAssemblyReference.cache
