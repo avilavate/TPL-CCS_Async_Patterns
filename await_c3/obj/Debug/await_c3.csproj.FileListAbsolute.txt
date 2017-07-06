@@ -1,0 +1,6 @@
+C:\Users\admin\NG2\C#\AsyncCS5\await_c3\bin\Debug\await_c3.exe.config
+C:\Users\admin\NG2\C#\AsyncCS5\await_c3\bin\Debug\await_c3.exe
+C:\Users\admin\NG2\C#\AsyncCS5\await_c3\bin\Debug\await_c3.pdb
+C:\Users\admin\NG2\C#\AsyncCS5\await_c3\obj\Debug\await_c3.exe
+C:\Users\admin\NG2\C#\AsyncCS5\await_c3\obj\Debug\await_c3.pdb
+C:\Users\admin\NG2\C#\AsyncCS5\await_c3\obj\Debug\await_c3.csprojResolveAssemblyReference.cache

@@ -4,3 +4,4 @@ C:\Users\admin\NG2\C#\AsyncCS5\TaskCompletionSourseDemo\bin\Release\TaskCompleti
 C:\Users\admin\NG2\C#\AsyncCS5\TaskCompletionSourseDemo\bin\Release\TaskCompletionSourseDemo.pdb
 C:\Users\admin\NG2\C#\AsyncCS5\TaskCompletionSourseDemo\obj\Release\TaskCompletionSourseDemo.exe
 C:\Users\admin\NG2\C#\AsyncCS5\TaskCompletionSourseDemo\obj\Release\TaskCompletionSourseDemo.pdb
+C:\Users\admin\NG2\C#\AsyncCS5\TaskCompletionSourseDemo\obj\Release\TaskCompletionSourseDemo.csprojResolveAssemblyReference.cache
