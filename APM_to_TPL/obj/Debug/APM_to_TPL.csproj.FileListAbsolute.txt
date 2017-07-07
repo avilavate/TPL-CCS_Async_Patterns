@@ -1,0 +1,7 @@
+C:\Users\admin\NG2\C#\AsyncCS5\APM_to_TPL\bin\Debug\APM_to_TPL.exe.config
+C:\Users\admin\NG2\C#\AsyncCS5\APM_to_TPL\bin\Debug\ratings.txt
+C:\Users\admin\NG2\C#\AsyncCS5\APM_to_TPL\bin\Debug\APM_to_TPL.exe
+C:\Users\admin\NG2\C#\AsyncCS5\APM_to_TPL\bin\Debug\APM_to_TPL.pdb
+C:\Users\admin\NG2\C#\AsyncCS5\APM_to_TPL\obj\Debug\APM_to_TPL.csprojResolveAssemblyReference.cache
+C:\Users\admin\NG2\C#\AsyncCS5\APM_to_TPL\obj\Debug\APM_to_TPL.exe
+C:\Users\admin\NG2\C#\AsyncCS5\APM_to_TPL\obj\Debug\APM_to_TPL.pdb
