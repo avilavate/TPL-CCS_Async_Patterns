@@ -11,7 +11,8 @@ namespace APM_to_TPL
     {
         public static Task<int> ReadAsynTask(this Stream s, byte[] buffer)
         {
-            return Task<int>.Factory.FromAsync(s.BeginRead, s.EndRead, buffer, 0, 100, null);
+          
+            return Task<int>.Factory.FromAsync(s.BeginRead, s.EndRead, buffer, 0, 10000, null);
         }
     }
 }

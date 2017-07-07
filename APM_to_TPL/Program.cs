@@ -11,7 +11,7 @@ namespace APM_to_TPL
     {
         static void Main(string[] args)
         {
-            Task<int> t_read;var buffer = new byte[100] ;
+            Task<int> t_read;var buffer = new byte[10000] ;
             FileStream fileStream = new FileStream(@"ratings.txt", FileMode.Open, FileAccess.Read);
             t_read = fileStream.ReadAsynTask(buffer);
 
@@ -19,6 +19,7 @@ namespace APM_to_TPL
               {
                   Console.WriteLine(t.Result);
                   Console.WriteLine(buffer.Length);
+                  Console.WriteLine(System.Text.Encoding.UTF8.GetString(buffer));
                   fileStream.Close();
               });
 
