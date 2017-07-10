@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Cancelation_Token
+﻿namespace Cancelation_Token
 {
     class Program
     {
@@ -25,7 +19,7 @@ namespace Cancelation_Token
             //});
 
             Token.DownloadAsync();
-            Console.ReadKey();
+            //Console.ReadKey();
         }
     }
 }

@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -14,24 +11,24 @@ namespace Cancelation_Token
         {
             var ct = new CancellationTokenSource();
             var token = ct.Token;
-
+            
             Task.Factory.StartNew(() =>
             {
-                Thread.Sleep(5000);
                 using (var wc = new WebClient())
                 {
-                    wc.DownloadStringCompleted += (o, e) =>
-                    {
-                        if (!e.Cancelled)
+                    wc.DownloadStringCompleted +=
+                    (o, e) =>
                         {
-                            Console.WriteLine("The download has completed:\n");
-                            Console.WriteLine(e.Result + "\n\nPress any key.");
-                        }
-                        else
-                        {
-                            Console.WriteLine("The download was canceled.");
-                        }
-                    };
+                            if (!e.Cancelled)
+                            {
+                                Console.WriteLine("The download has completed:\n");
+                                Console.WriteLine(e.Result + "\n\nPress any key.");
+                            }
+                            else
+                            {
+                                Console.WriteLine("The download was canceled.");
+                            }
+                        };
                     if (!token.IsCancellationRequested)
                     {
                         using (var reg = token.Register(() => { wc.CancelAsync(); }))
@@ -39,11 +36,12 @@ namespace Cancelation_Token
                             Console.WriteLine("Request Started!");
                             wc.DownloadStringAsync(new Uri(path));
                         }
-
                     }
-
+                    else
+                    {
+                        Console.WriteLine($"Cancellation has Requested");
+                    }
                 }
-
             }, token);
 
             Console.WriteLine("Press 'c' to cancel.\n");
@@ -51,7 +49,6 @@ namespace Cancelation_Token
             Console.WriteLine();
             if (ch == 'c')
                 ct.Cancel();
-
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
             ct.Dispose();
