@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "await_c3", "await_c3\await_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APM_to_TPL", "APM_to_TPL\APM_to_TPL.csproj", "{C22C77B3-FBBF-4CF7-B241-0FF2DF663F81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cancelation_Token", "Cancelation_Token\Cancelation_Token.csproj", "{8353FBA3-5778-444F-8D3E-6988E867FB78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C22C77B3-FBBF-4CF7-B241-0FF2DF663F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C22C77B3-FBBF-4CF7-B241-0FF2DF663F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C22C77B3-FBBF-4CF7-B241-0FF2DF663F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8353FBA3-5778-444F-8D3E-6988E867FB78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8353FBA3-5778-444F-8D3E-6988E867FB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8353FBA3-5778-444F-8D3E-6988E867FB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8353FBA3-5778-444F-8D3E-6988E867FB78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

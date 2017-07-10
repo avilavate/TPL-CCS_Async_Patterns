@@ -9,20 +9,21 @@ namespace APM_to_TPL
     {
         static void Main(string[] args)
         {
-            var buffer = new byte[10000];
-            FileStream fileStream = new FileStream(@"ratings.txt", FileMode.Open, FileAccess.Read);
+            //var buffer = new byte[10000];
+            //FileStream fileStream = new FileStream(@"ratings.txt", FileMode.Open, FileAccess.Read);
 
-            fileStream.ReadAsynTask(buffer)
-                .ContinueWith(
-                        t =>
-                              {
-                                  Console.WriteLine(t.Result);
-                                  Console.WriteLine(buffer.Length);
-                                  Console.WriteLine(Encoding.UTF8.GetString(buffer));
-                                  fileStream.Close();
-                              });
+            //fileStream.ReadAsynTask(buffer)
+            //    .ContinueWith(
+            //            t =>
+            //                  {
+            //                      Console.WriteLine(t.Result);
+            //                      Console.WriteLine(buffer.Length);
+            //                      Console.WriteLine(Encoding.UTF8.GetString(buffer));
+            //                      fileStream.Close();
+            //                  });
 
-            FromAsync.Get();
+            //FromAsync.Get();
+            awaitException.GetUrl();
             Console.Read();
         }
     }
