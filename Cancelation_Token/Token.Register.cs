@@ -29,6 +29,8 @@ namespace Cancelation_Token
                                 Console.WriteLine("The download was canceled.");
                             }
                         };
+                    
+
                     if (!token.IsCancellationRequested)
                     {
                         using (var reg = token.Register(() => { wc.CancelAsync(); }))
